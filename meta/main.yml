@@ -1,0 +1,18 @@
+galaxy_info:
+  role_name: linuxbaseline
+  author: iquzart
+  description: Linux Baseline setup
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: EL
+      versions:
+        - 8
+        - 7
+    - name: Ubuntu
+      versions:
+        - Focal
+        - Disco
+        - Bionic
+  galaxy_tags:
+    - baseline
